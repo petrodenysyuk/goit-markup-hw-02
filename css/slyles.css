@@ -1,9 +1,9 @@
 /* ----------Variables----------- */
 :root {
-    --iris: #4D5AE5;
-    --ocean: #404BBF;
-    --navyblue: #2E2F42;
-    --cloud: #F4F4FD;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navyblue: #2e2f42;
+    --cloud: #f4f4fd;
     --slate: #434455;
     --white: #FFF;
 
@@ -11,9 +11,10 @@
 /* -------------Body----------------- */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 400;
+    background-color: #fff;
 }
 .link {
     text-decoration: none;
@@ -21,23 +22,28 @@ body {
 
 /* -----------Header------------ */
 .header-logo{
-    color: var(--navyblue, #2E2F42);
-        font-family: Raleway;
+    color: var(--iris, #4d5ae5);
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
     
 }
 .logo {
-    color: var(--iris, #4D5AE5);
+    color: var(--navyblue, #2e2f42);
         font-family: Raleway;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
 
 }
+.list{
+    list-style: none;
+}
 .header-list {
+    color: var(--navyblue, #2e2f42);
     font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -60,7 +66,7 @@ body {
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
-    color: var(--ocean, #404BBF);
+    color: var(--ocean, #404bbf);
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -156,7 +162,7 @@ color: var(--ocean, #404BBF);
 .applications {}
 
 .applications-title {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue, #2e2f42);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -248,7 +254,6 @@ color: var(--ocean, #404BBF);
     color: var(--iris, #4D5AE5);
     background-color: var(--cloud, #F4F4FD);
     cursor: pointer;
-        text-align: center;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
