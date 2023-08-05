@@ -184,6 +184,7 @@ color: var(--ocean, #404bbf);
 
 .team-item {
     color: var(--navyblue, #2e2f42);
+    background-color: #ffffff;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -247,15 +248,16 @@ color: var(--ocean, #404bbf);
     color: var(--iris, #4d5ae5);
     background-color: var(--cloud, #f4f4fd);
     cursor: pointer;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .filter-btn:hover,
 .filter-btn:focus {
-background: var(--ocean, #404bbf);
+    color: #ffffff;
+    background-color: var(--ocean, #404bbf);
 }
 
 
