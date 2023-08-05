@@ -160,7 +160,9 @@ color: var(--ocean, #404bbf);
 }
 
 /* ------------Team------------------ */
-
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
     color: var(--navyblue, #2e2f42);
@@ -210,11 +212,10 @@ color: var(--ocean, #404bbf);
 
 .footer-logo {
     color: var(--cloud, #f4f4fd);
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 800;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .footer-text {
