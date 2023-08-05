@@ -6,15 +6,17 @@
     --cloud: #f4f4fd;
     --slate: #434455;
     --white: #FFF;
+    --green: #31d0aa;
+    --lightslate: #8E8F99;
 
 }
 /* -------------Body----------------- */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: var(--slate);
     font-size: 16px;
-    font-weight: 400;
-    background-color: #fff;
+
+    background-color: var(--white);
 }
 .link {
     text-decoration: none;
@@ -33,28 +35,16 @@ body {
 }
 .logo {
     color: var(--navyblue, #2e2f42);
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
 
 }
 .list{
     list-style: none;
 }
 .header-list {
-    color: var(--navyblue, #2e2f42);
-    font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+
 }
 .header-item {
-    
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+
 }
 .header-nav-link {
     color: var(--navyblue, #2E2F42);
@@ -73,17 +63,14 @@ body {
         letter-spacing: 0.02em;
 }
 .header-contacts {
-color: var(--slate, #434455);
-font-style: inherit;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
+font-style: normal;
+
 }
 .contacts-link {
     color: var(--slate, #434455);
         font-size: 16px;
-        font-weight: 400;
+
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -140,7 +127,7 @@ color: var(--ocean, #404bbf);
 .advantages-desc {
     color: var(--slate, #434455);
         font-size: 16px;
-        font-weight: 400;
+
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -161,7 +148,7 @@ color: var(--ocean, #404bbf);
 
 /* ------------Team------------------ */
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--cloud);
 }
 
 .team-title {
@@ -175,20 +162,11 @@ color: var(--ocean, #404bbf);
 }
 
 .team-list {
-    color: var(--navyblue, #2e2f42);
-    background-color: #ffffff;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;}
+}
 
 .team-item {
-    color: var(--navyblue, #2e2f42);
-    background-color: #ffffff;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;}
+    background-color: var(--white);
+}
 
 
 
@@ -202,7 +180,7 @@ color: var(--ocean, #404bbf);
 .team-desc {
         color: var(--slate, #434455);
             font-size: 16px;
-            font-weight: 400;
+
             line-height: 1.5;
             letter-spacing: 0.02em;
 }
@@ -222,7 +200,7 @@ color: var(--ocean, #404bbf);
 .footer-text {
     color: var(--cloud, #f4f4fd);
     font-size: 16px;
-    font-weight: 400;
+
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -256,7 +234,7 @@ color: var(--ocean, #404bbf);
 }
 .filter-btn:hover,
 .filter-btn:focus {
-    color: #ffffff;
+    color: var(--white);
     background-color: var(--ocean, #404bbf);
 }
 
@@ -270,7 +248,8 @@ color: var(--ocean, #404bbf);
             letter-spacing: 0.02em;
 }
 
-.products-desc {color: var(--slate, #434455);
+.products-desc {
+    color: var(--slate, #434455);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
