@@ -33,7 +33,7 @@ body {
 }
 .logo {
     color: var(--navyblue, #2e2f42);
-        font-family: Raleway;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
@@ -89,7 +89,7 @@ font-style: inherit;
 }
 .contacts-link:hover,
 .contacts-link:focus {
-color: var(--ocean, #404BBF);
+color: var(--ocean, #404bbf);
 }
 
 
@@ -100,6 +100,7 @@ color: var(--ocean, #404BBF);
 
 .hero-title {
     color: var(--white, #FFF);
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -110,22 +111,22 @@ color: var(--ocean, #404BBF);
     color: var(--white, #FFF);
     background: var(--iris, #4D5AE5);
     cursor: pointer;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.04em;
 }
 .hero-button:hover,
 .hero-button:focus {
     color: var(--white, #FFF);
     background: var(--ocean, #404BBF);
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.04em;
 }
 /* -----------Advantages----------------- */
 .advantages-subtitle {
@@ -148,10 +149,13 @@ color: var(--ocean, #404BBF);
 
 .applications-title {
     color: var(--navyblue, #2e2f42);
+    text-align: center;
+    text-transform: capitalize;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+
 
 }
 
@@ -159,15 +163,18 @@ color: var(--ocean, #404BBF);
 
 
 .team-title {
-        color: var(--navyblue, #2e2f42);
-            font-size: 36px;
-            font-weight: 700;
-            line-height: 1.11;
-            letter-spacing: 0.02em;
+    color: var(--navyblue, #2e2f42);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
 }
 
 .team-list {
     color: var(--navyblue, #2e2f42);
+    background-color: #ffffff;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
